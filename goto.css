@@ -1,0 +1,191 @@
+
+
+body{
+    background-image:url(gp.jpg);
+    color:white;
+}
+#top
+{
+    margin-left:550px;
+    margin-top:100px;
+}
+
+
+
+
+#searchBar {
+
+            border:1px solid #000000;
+            border-right:none;
+            font-size: 16px;
+            padding:10px;
+            outline:none;
+            width:250px;
+            -webkit-border-top-left-radius :10px;
+            -webkit-border-bottom-left-radius :10px;
+            -moz-border-radius-topleft :10px;
+            -moz-border-radius-bottomleft :10px;
+            border-top-left-radius :10px;
+            border-top-left-radius:10px;
+            border-bottom-left-radius:10px;
+        
+
+
+}
+#searchBtn{
+
+            border: 1px solid #000000;
+            font-size:16px;
+            padding:10px;
+            background:#f1d829;
+            cursor:pointer;
+            -webkit-border-top-right-radius :10px;
+            -webkit-border-bottom-right-radius :10px;
+            -moz-border-radius-topright :10px;
+            -moz-border-radius-bottomright :10px;
+            border-top-right-radius :10px;
+            border-top-right-radius:10px;
+            border-bottom-right-radius:10px;
+
+
+}
+
+
+#searchBtn:hover{
+    background:teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    width:60%;
+    margin-top: 130px;
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead 
+	th {
+		background-color: #55608f;
+	
+}
+
+tbody 
+	tr 
+		:hover {
+			background-color: rgba(255,255,255,0.3);
+		
+	}
+	td {
+		position: relative;
+		hover 
+			before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@import url('//fonts.googleapis.com/css?family=Bungee+Shade');
+
+
+
+
+* {
+      font-family: 'Bungee Shade';
+}
+body
+{ 
+background-color: #2980b9;
+  color: #2c3e50;
+}
+h1
+
+{
+  color: #2c3e50;
+  margin-top:  100px;
+  font-size: 50px;
+  text-align: center;
+  @media screen and (max-width:  850px);
+    font-size: 2em;
+  @media screen and (max-width: 550px);
+    font-size: 1.5em;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
